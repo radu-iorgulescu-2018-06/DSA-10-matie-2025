@@ -1,11 +1,20 @@
 public class PrintingPatterns {
 
-        public static void printRightAngleTriangle(int n) {
-            for (int i = 1; i <= n; i++) {
-                for (int j = 1; j <= i; j++) {
-                    System.out.print("*");
+        public static void printRightAngleTriangle(int numberOfRows) {
+
+            if (numberOfRows <= 0) {
+                System.out.println(x: "Numarul de randuri trebuie sa fie pozitiv");
+                return;
+            }
+            
+            int currentNumber = 1;
+
+            for (int row = 1; row <= numberOfRows; row++) {
+                for (int column = 1; column <= row; column++) {
+                    System.out.print(currentNumber + "*");
+                    currentNumber++;
                 }
-                System.out.println();
+                System.out.println(); //Enter/CR
             }
         }
 
@@ -24,8 +33,15 @@ public class PrintingPatterns {
         }
 
         public static void main(String[] args) {
-            int n = 5; // You can change n to any number to adjust the size
-            //printRightAngleTriangle(n);
-            printPyramid(n);
+            
+
+            printPyramid(5);
+            printRightAngleTriangle(-11);
+            printRightAngleTriangle(0);
+
+            printRightAngleTriangle(1);
+            printRightAngleTriangle(3);
+            printRightAngleTriangle(5);           
+            //printRightAngleTriangle(n5);
         }
 }
