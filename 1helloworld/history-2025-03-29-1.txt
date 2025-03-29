@@ -1,0 +1,16 @@
+    1  java - version
+    2  java -version
+    3  pwd
+    4  ls
+    5  git add .
+    6  pwd
+    7  cd 1helloworld/
+    8  ls
+    9  javac Hello.java 
+   10  node --version
+   11  node Hello.j
+   12  node Hello.js
+   13  python3 -v
+   14  python3 --version
+   15  python3 ./Hello.py 
+   16  history > history-2025-03-29-1.txt

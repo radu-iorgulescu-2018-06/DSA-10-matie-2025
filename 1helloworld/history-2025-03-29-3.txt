@@ -1,0 +1,2 @@
+    1  /home/codespace/.python/current/bin/python3 /workspaces/DSA-10-matie-2025/1helloworld/Hello.py
+    2  history > ./1helloworld/history-2025-03-29-3.txt
